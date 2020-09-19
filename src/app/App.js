@@ -5,8 +5,9 @@ import DrumMachine from "./components/DrumMachine"
 
 function App() {
   return (
-    <div className="App">
-    <DrumMachine/>
+    <div id="drum-machine" className="App">
+      <div id="display"></div>
+    <DrumMachine />
     </div>
   );
 }
