@@ -1,6 +1,5 @@
 .drum-pads {
-  height: 40vw;
-  width: 75vw;
+  width: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +10,7 @@
 .drum-pad {
   display: flex;
   border: 1px solid black;
-  width: 30%;
+  width: 100px;
   height: 100px;
   justify-content: center;
   align-items: center;
@@ -22,7 +21,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 3% auto auto;
+  margin: 3% auto 3%;
   justify-content: center;
   font-size: 3em;
   
