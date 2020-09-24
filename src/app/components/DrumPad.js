@@ -1,28 +1,32 @@
 import React from 'react';
 
 
-
 class DrumPad extends React.Component {
+  constructor(props) {
+    super(props);
+    this.audio = React.createRef();
+  }
 
   handleClick = () => {
-    this.audio.play();
-    console.log(this.audio.play());
+    this.audio.current.play();
+    console.log(this.audio.current);
+    this.props.handleDisplay(this.props.id)
   };
   render() {
     return (
-      <div
+      <button
         onClick={this.handleClick}
         className="drum-pad"
         id={this.props.id}
       >
         <h3>{this.props.letterKey}</h3>
         <audio
-          ref={ref => this.audio = ref}
+          ref={this.audio}
           className="clip"
           id={this.props.letterKey}
           src={this.props.path}>
         </audio>
-      </div>
+      </button>
     )
   }
 }

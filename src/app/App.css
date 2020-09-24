@@ -1,8 +1,29 @@
+.drum-pads {
+  height: 40vw;
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
 .drum-pad {
   display: flex;
   border: 1px solid black;
-  width: 100px;
+  width: 30%;
   height: 100px;
+  justify-content: center;
   align-items: center;
-  margin: auto auto;
+  margin: 5px;
+}
+
+#display {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 3% auto auto;
+  justify-content: center;
+  font-size: 3em;
+  
 }
