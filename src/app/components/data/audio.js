@@ -37,12 +37,12 @@ const soundData = [{
   keyCode: 88,
   letterKey: 'X',
   id: 'Kick',
-  path: '../audio/RP4_KICK_1.mp3'
+  path: 'http://localhost:3000/audio/Cev_H2.mp3'
 }, {
   keyCode: 67,
   letterKey: 'C',
   id: 'Closed-HH',
-  path: '../audio/Cev_H2.mp3'
+  path: 'http://localhost:3000/audio/Cev_H2.mp3'
 },
 ];
 
