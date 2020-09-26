@@ -9,47 +9,47 @@ const soundData = [{
   keyCode: 81,
   letterKey: 'Q',
   id: 'Heater-1',
-  path: 'http://localhost:8000/src/audio/Heater-1.mp3'
+  path: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3'
 }, {
   keyCode: 87,
   letterKey: 'W',
   id: 'Heater-2',
-  path: 'http://localhost:8000/src/audio/Heater-2.mp3'
+  path: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3'
 }, {
   keyCode: 69,
   letterKey: 'E',
   id: 'Heater-3',
-  path: 'http://localhost:8000/src/audio/Heater-3.mp3'
+  path: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3'
 }, {
   keyCode: 65,
   letterKey: 'A',
   id: 'Heater-4',
-  path: 'http://localhost:8000/src/audio/Heater-4_1.mp3'
+  path: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3'
 }, {
   keyCode: 83,
   letterKey: 'S',
   id: 'Clap',
-  path: 'http://localhost:8000/src/audio/Heater-6.mp3'
+  path: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3'
 }, {
   keyCode: 68,
   letterKey: 'D',
   id: 'Open-HH',
-  path: 'http://localhost:8000/src/audio/Dsc_Oh.mp3'
+  path: 'https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3'
 }, {
   keyCode: 90,
   letterKey: 'Z',
   id: "Kick-n'-Hat",
-  path: 'http://localhost:8000/src/audio/Kick_n_Hat.mp3'
+  path: 'https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3'
 }, {
   keyCode: 88,
   letterKey: 'X',
   id: 'Kick',
-  path: 'http://localhost:8000/src/audio/RP4_KICK_1.mp3'
+  path: 'https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3'
 }, {
   keyCode: 67,
   letterKey: 'C',
   id: 'Closed-HH',
-  path: 'http://localhost:8000/src/audio/Cev_H2.mp3'
+  path: 'https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3'
 },
 ];
 

@@ -17,14 +17,16 @@ class DrumPad extends React.Component {
     handleKeyDown = e => {
     if (e.keyCode === this.props.keyCode) {
       this.audio.current.play();
-      this.props.handleDisplay(this.props.id)
-    }
-    }
+      this.props.handleDisplay(this.props.id);
+      this.audio.current.currentTime = 0;
 
+    }
+    };
   handleClick = () => {
     this.audio.current.play();
     console.log(this.audio.current);
     this.props.handleDisplay(this.props.id)
+    this.audio.current.currentTime = 0;
   };
   render() {
     return (
